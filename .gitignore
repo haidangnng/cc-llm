@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pyenv
+.python-version
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Pytest
+.cache/
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+test-results.xml
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# ChromaDB volume (assuming you mount it locally)
+chroma_data/
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# FastAPI OpenAPI docs cache (if used)
+*.openapi.json
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# SQLite
+*.sqlite3
+
+# Language server metadata
+.pyre/
+
+# IDE files
+.idea/
